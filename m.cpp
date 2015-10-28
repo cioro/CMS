@@ -1,14 +1,13 @@
 #include <iostream>
 #include <string>
+#include "cms_message.h"
 
 int main(){
 
   std::string message;
   
   while(std::getline(std::cin,message)){
-    
-    std::cout << message << std::endl;
-    
+    message_parser(message);
   }
 
 }
