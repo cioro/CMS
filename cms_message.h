@@ -3,7 +3,8 @@
 
 #include <iostream>
 #include <string>
+#include <vector>
 
-void message_parser(std::string message);
+std::vector<std::string> message_parser(std::string message);
 
 #endif

@@ -5,9 +5,9 @@
 int main(){
 
   std::string message;
-  
+  std::vector<std::string> input;
   while(std::getline(std::cin,message)){
-    message_parser(message);
+    input = message_parser(message);
   }
 
 }
